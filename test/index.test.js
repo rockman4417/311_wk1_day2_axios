@@ -3,6 +3,7 @@ const {
   getMovieById,
   getMovieByIdFailure
 } = require('../src')
+const axios = require('axios').default;
 
 describe('API protocol practice', () => {
 // Note that is is not best practice to make actual API calls with 
